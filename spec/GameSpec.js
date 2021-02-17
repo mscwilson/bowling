@@ -3,7 +3,7 @@ describe("Game", function() {
 
   beforeEach(function() {
     game = new Game();
-    frameSpy = createSpyObj("push")
+    // frameSpy = createSpyObj("push")
   })
 
   describe("creates a frame", function() {
