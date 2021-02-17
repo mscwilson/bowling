@@ -1,8 +1,9 @@
 describe("Game", function() {
-  let game;
+  let game, frameSpy;
 
   beforeEach(function() {
     game = new Game();
+    frameSpy = createSpyObj("push")
   })
 
   describe("creates a frame", function() {
